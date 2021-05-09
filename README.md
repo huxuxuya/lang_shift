@@ -90,7 +90,7 @@ enum custom_keycodes {
 
 ## Вызов модуля для каждой клавиши
 
-В своей функции `process_record_user` включаете добавляете следующую обработку:
+В файле `keymap.c` в своей функции `process_record_user` включаете добавляете следующую обработку:
 
 ```c
 bool process_record_user(uint16_t key, keyrecord_t *record) {
